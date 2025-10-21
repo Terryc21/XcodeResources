@@ -1,6 +1,6 @@
-# Colorblind-Friendly Design Guide for iOS/macOS Apps
+# Colorblind-Friendly Design Guide for Developing Apps
 
-**For:** Xcode Developers  
+**For:** Developers  
 **Compliance:** WCAG 2.1 Level AA  
 **Platform:** iOS 15+ / macOS 12+
 
