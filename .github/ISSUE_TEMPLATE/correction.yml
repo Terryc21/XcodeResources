@@ -1,0 +1,35 @@
+name: Correction
+description: Something in the guides or examples is wrong, outdated, or incomplete
+labels: ["correction"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where is the issue?
+      description: File path, section heading, or URL.
+      placeholder: guides/swiftdata.md, "Migrations" section
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What the docs currently say
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: What's actually correct
+      description: Apple docs link, working code sample, or explanation.
+    validations:
+      required: true
+
+  - type: input
+    id: xcode-version
+    attributes:
+      label: Xcode and Swift version
+      placeholder: Xcode 26.3, Swift 6.2
+    validations:
+      required: false
