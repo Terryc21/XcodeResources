@@ -1,0 +1,19 @@
+name: Addition
+description: Suggest a new guide, example, or topic
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What to add
+      description: Describe the guide, example, or topic. Short working code samples beat abstract descriptions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why it's useful
+      description: What problem does this solve for someone searching?
+    validations:
+      required: false
